@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 from datetime import date
 from stonls_utils import preprocess, windowed_dataset
-from model.py import predictor
+from model import predictor
 
 arg_parser = argparse.ArgumentParser("Enter the tickers")
 
